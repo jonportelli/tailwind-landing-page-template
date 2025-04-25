@@ -8,10 +8,12 @@ import Features from '@/components/features'
 import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
+import Text from '@/components/Text' 
 
 export default function Home() {
   return (
     <>
+      <Text />
       <Hero />
       <Features />
       <FeaturesBlocks />
